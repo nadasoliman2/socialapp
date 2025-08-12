@@ -53,7 +53,7 @@ if(localStorage.getItem('token'))
            <>
                   {error&& <Feedback msg={error}></Feedback>}
            
-           <form className="w-full max-w-md sm:max-w-lg md:max-w-2xl mx-auto p-4 my-12" onSubmit={handleSubmit(onSubmit)}>
+           <form className= "h-80  mt-28  w-full max-w-md sm:max-w-lg md:max-w-2xl mx-auto p-4 my-12" onSubmit={handleSubmit(onSubmit)}>
        
    
      

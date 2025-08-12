@@ -23,7 +23,7 @@ const [single,setsingle]= useState(null);
     return(
         <>
      {single ? (
-        <Postitem data={single} />
+        <Postitem post={single} />
       ) : (
         <Loading></Loading>
       )}

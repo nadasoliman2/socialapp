@@ -20,7 +20,7 @@ function App() {
         children: [
           { path: '/', element: <Login /> },
           { path: '/home', element: <Home /> },
-          { path: '/posts/:id', element: <Singlepost /> },
+          { path: '/posts/:id', element: <Singlepost/> },
           { path: '/register', element: <Register /> },
           { path: '/profile/:id', element: <Profile /> },
         ]
