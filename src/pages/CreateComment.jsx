@@ -57,7 +57,6 @@ const {isPending,data,mutate} = useMutation({mutationFn:createcomment,
   </div>
 </form>
 
-<p class="ms-auto text-xs text-gray-500 dark:text-gray-400">Remember, contributions to this topic should follow our <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">Community Guidelines</a>.</p>
 
         </>
     )
